@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src=Assets/AdventureWorks_Logo.png alt="AdventureWorks Logo" width="200"/>
+  <img src=Assets/AdventureWorks_Logo_1.svg alt="AdventureWorks Logo" width="200"/>
 </p>
 
 # AdventureWorks - Sales Dashboard
@@ -18,7 +18,7 @@
 8. [Recommendations Based on Key Findings 💡](#8-recommendations-based-on-key-findings)
 
 
-## **1. Background Information**📖
+## **1. Background Information**
 
 AdventureWorks is a fictional global manufacturer of cycling equipment and accessories, widely used for educational purposes in data analytics. This project simulates a real-world business intelligence scenario, where the analyst is tasked with transforming raw data into actionable insights for management.
 
@@ -37,7 +37,7 @@ The dataset consists of raw CSV files containing transaction and returns records
 * Limited scope: This project focuses on sales, products, and customer data; additional operational or financial datasets are not included.  
 * Simulation environment: The analysis is conducted in a controlled, educational setting and does not capture the full complexity of a real AdventureWorks BI system.
 
-## **2. Data Import and Preparation**📂
+## **2. Data Import and Preparation**
 
 In this phase, all raw data files were imported into *Power BI Desktop* to prepare for analysis. The dataset included CSV files and folders containing Excel spreadsheets with detailed transaction, product, customer, and sales territory information.
 
@@ -49,7 +49,7 @@ Key steps performed during data import and preparation included:
 
 These preparation steps ensured that the data was properly formatted, consistent, and structured to support the construction of a relational data model and the creation of dynamic measures in DAX.
 
-## **3. Data cleaning and transformation**🧹
+## **3. Data cleaning and transformation**
 
 Once the raw data was imported and structured, extensive cleaning and transformation were performed to ensure accuracy and consistency across all tables.  
 
@@ -63,7 +63,7 @@ Key steps included:
 
 These steps ensured that the dataset was clean, reliable, and ready for advanced feature creation, modeling, and KPI calculations.
 
-## **4. Feature creation and analysis**⚙️
+## **4. Feature creation and analysis**
 
 Once the data was cleaned, the next step was to **design and model the relationships** between tables using Power BI’s *Manage Relationships* tool.  
 This relational structure established the foundation for consistent aggregations and accurate cross-table analysis.
@@ -84,7 +84,7 @@ This relational structure established the foundation for consistent aggregations
 - **Product Analysis:** Classified products into categories and performance tiers based on revenue and profit margin contribution to highlight top and underperforming items.
 - **Dynamic Parameters:** Implemented “What-if” parameters to simulate pricing adjustments and visualize their impact on overall profitability.
 
-## **5. Data visualization**📈
+## **5. Data visualization**
 
 Below are the main dashboards developed for this project, each designed to explore a different analytical dimension of the dataset.
 
@@ -94,20 +94,22 @@ Below are the main dashboards developed for this project, each designed to explo
 -	Product Performance: Evaluates product categories by revenue and profit margin, identifying best-sellers and low-performing items.
 
 <div style="display: flex; justify-content: center; gap: 20px;margin-bottom: 20px;">
-  <img src="Assets/GeneralDashboard.png" alt="GeneralDashboard" width="450"/>
-  <img src="Assets/SalesMap.png" alt="SalesMap" width="450"/>
+  <img src="Assets/GeneralDashboard.png" alt="GeneralDashboard" width="400"/>
+  <img src="Assets/SalesMap.png" alt="SalesMap" width="400"/>
 </div>
 
 
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="Assets/ProductsPage.png" alt="SalesMap" width="450"/>
-  <img src="Assets/CustomersPage.png" alt="SalesMap" width="450"/>
+  <img src="Assets/ProductsPage.png" alt="SalesMap" width="400"/>
+  <img src="Assets/CustomersPage.png" alt="SalesMap" width="400"/>
 </div>
 
-## **6. Dashboard Demo** 🎬 
+## **6. Dashboard Demo**
 
-
+<p align="center">
+  <img src=Assets/DashboardGif.gif alt="Dashboard Gif" width="500"/>
+</p>
 
 
 ## **7. Key findings**
